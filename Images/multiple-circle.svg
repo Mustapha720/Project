@@ -1,0 +1,9 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="#1773eb">
+<circle cx="12" cy="3.75" r="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15.75 14.25V12C15.75 9.92893 14.0711 8.25 12 8.25C9.92893 8.25 8.25 9.92893 8.25 12V14.25H9.75L10.5 20.25H13.5L14.25 14.25H15.75Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="4.5" cy="6" r="2.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.7 9.947C4.5555 9.56185 3.29558 9.75094 2.31457 10.4551C1.33355 11.1592 0.751285 12.2924 0.75 13.5V14.25H2.25L3 18.75H6L6.376 16.494" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="19.5" cy="6" r="2.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18.3 9.947C19.4445 9.56185 20.7044 9.75094 21.6854 10.4551C22.6664 11.1592 23.2487 12.2924 23.25 13.5V14.25H21.75L21 18.75H18L17.624 16.494" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.25 21C23.25 22.243 18.213 23.25 12 23.25C5.787 23.25 0.75 22.243 0.75 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

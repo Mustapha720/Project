@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="30" viewBox="0 0 28 30" version="1.1">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Work-Office-Companies-/-Presentations-/-presentation-board-graph" transform="translate(-1.000000, 0.000000)" stroke="#1773eb" stroke-width="1.5">
+            <g id="presentation-board-graph">
+                <g>
+                    <path d="M15,21.5625 L15,25.3125"/>
+                    <path d="M15,25.3125 L11.25,29.0625"/>
+                    <path d="M15,25.3125 L18.75,29.0625"/>
+                    <rect id="Rectangle-path" x="1.875" y="0.9375" width="26.25" height="20.625" rx="1.5"/>
+                    <polyline points="5.625 12.1875 9.375 12.1875 11.25 8.4375 15 15 17.8125 10.3125 20.625 12.1875 24.375 7.5">
+                    </polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

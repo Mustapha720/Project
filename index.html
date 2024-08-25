@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="div1 navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid mx-3">
+        <!-- Navbar brand with icon aligned with dropdowns -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="/Images/Contentful logo.svg" alt="Brand Icon" width="200" height="30" class="d-inline-block align-text-top">
+        </a>
+        <!-- Toggle button for mobile view -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar content -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+<!-- Dropdown 1 -->
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="span0">Products</span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                <div class="d-flex gap-3">
+                    <div style="margin: 10px;">
+                        <li><a class="dropdown-item" href="https://www.contentful.com/products/">
+                            <div class="d-flex">
+                                <img src="/Images/contentful-black.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Why Contentful</span>
+                                    <br><span>See our composable content platform</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/products/platform/">
+                            <div class="d-flex">
+                                <img src="/Images/Contentful Platform Icon.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Platform</span>
+                                    <br><span>Deliver intelligent experiences from one source</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/products/studio/">
+                            <div class="d-flex">
+                                <img src="/Images/Contentful Studio Icon.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Studio</span>
+                                    <br><span>Visually assemble experiences at scale</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/products/ecosystem/">
+                            <div class="d-flex">
+                                <img src="/Images/Contentful Ecosystem Icon.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Ecosystem</span>
+                                    <br><span>Scale with enterprise solutions & partnerships</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/marketplace/">
+                            <div class="d-flex">
+                                <img src="/Images/marketplace.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Marketplace</span>
+                                    <br><span>Apps and integrations to extend Contentful</span>
+                                </span>
+                            </div>
+                        </a></li>
+                    </div>
+                    <div class="imagee" style="margin: 30px 50px;">
+                        <img src="/Images/home_ai.webp" alt="" width="200">
+                        <div class="nav-head">
+                            <p>AI and Contentful</p>
+                            <p>Discover how we are implementing AI to optimize content creation</p>
+                            <a href="https://www.contentful.com/products/ai/" style="text-decoration: none;">Explore AI</a>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            </li>
+<!-- Dropdown 2 -->
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="span0">Use Cases</span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <div class="d-flex gap-3">
+                    <div style="margin: 10px;">
+                        <li><a class="dropdown-item" href="https://www.contentful.com/use-case/global-campaign-management/">
+                            <div class="d-flex">
+                                <img src="/Images/earth-locate.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Global Marketing & Localization</span>
+                                    <br><span>Personalize content experiences</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/use-case/composable-commerce/">
+                            <div class="d-flex">
+                                <img src="/Images/shopping-cart-1.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Composable Commerce</span>
+                                    <br><span>Commerce solution at scale</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/use-case/support-portal-knowledge-base/">
+                            <div class="d-flex">
+                                <img src="/Images/read-light-idea.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Support Portal & Knowledgebase</span>
+                                    <br><span>FAQs, intranet & more</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/use-case/fast-flexible-mobile-apps/">
+                            <div class="d-flex">
+                                <img src="/Images/mobile-phone.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Mobile Application</span>
+                                    <br><span>Powering mobile experiences for global brands</span>
+                                </span>
+                            </div>
+                        </a></li>
+                    </div>
+                    <div class="imagee" style="margin: 30px 50px;">
+                        <img src="/Images/Navigation_highlight_for_SEO_Compliance_2x.webp" alt="" width="200" style="border-radius: 10px;">
+                        <div class="nav-head">
+                            <p>SEO with Contentful</p>
+                            <p>Ensuring your digital experiences are SEO-friendly.</p>
+                            <a href="https://www.contentful.com/solutions/seo/" style="text-decoration: none;">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            </li>
+<!-- Dropdown 3 -->
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="span0">Resources</span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                <div class="d-flex gap-3">
+                    <div style="margin: 10px;">
+                        <li><a class="dropdown-item" href="https://www.contentful.com/resources/">
+                            <div class="d-flex">
+                                <img src="/Images/monitor-programming-book.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Resource Center</span>
+                                    <br><span>White papers, ebooks and videos</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/case-studies/">
+                            <div class="d-flex">
+                                <img src="/Images/presentation-board-graph.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Customer Case Studies</span>
+                                    <br><span>Success stories with Contentful</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/blog/">
+                            <div class="d-flex">
+                                <img src="/Images/monitor-page.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Blog</span>
+                                    <br><span>Get the latest from Contentful</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/events/">
+                            <div class="d-flex">
+                                <img src="/Images/calendar-add-1.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Events</span>
+                                    <br><span>Let's meet up</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/help/">
+                            <div class="d-flex">
+                                <img src="/Images/messages-bubble-question.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Help Center</span>
+                                    <br><span>We've got your back</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://training.contentful.com/">
+                            <div class="d-flex">
+                                <img src="/Images/study-owl.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Learning Center</span>
+                                    <br><span>Live training, courses and certification</span>
+                                </span>
+                            </div>
+                        </a></li>
+                    </div>
+                    <div class="imagee" style="margin: 30px 50px;">
+                        <img src="/Images/Flagship-Video-Promo-5-16_9_2x__2_.webp" alt="" width="200">
+                        <div class="nav-head">
+                            <p>The New Storyteller</p>
+                            <p>The people within our costumer organizations driving change.</p>
+                            <a href="https://www.contentful.com/the-new-storytellers/" style="text-decoration: none;">View their stories</a>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            </li>
+<!-- Dropdown 4 -->
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="span0">Developers</span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                <div class="d-flex gap-3">
+                    <div style="margin: 10px;">
+                        <li><a class="dropdown-item" href="https://www.contentful.com/developers/">
+                            <div class="d-flex">
+                                <img src="/Images/programming-hold-code.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Developer Portal</span>
+                                    <br><span>Meet your community</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/developers/docs/">
+                            <div class="d-flex">
+                                <img src="/Images/paginate-filter-text.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Documentation</span>
+                                    <br><span>How to build with Contentful</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/starter-templates/">
+                            <div class="d-flex">
+                                <img src="/Images/navigation-templates.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Starter Templates</span>
+                                    <br><span>Fast-track your project</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/technologies-getting-started/">
+                            <div class="d-flex">
+                                <img src="/Images/browser-page-hierarchy.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Technologies Getting Started</span>
+                                    <br><span>Use the tool you love</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/developers/showcase/">
+                            <div class="d-flex">
+                                <img src="/Images/holy-code.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Develop Showcase</span>
+                                    <br><span>Awesome projects from the community</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/blog/tag/developer/">
+                            <div class="d-flex">
+                                <img src="/Images/programming-browser.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Developer Blog</span>
+                                    <br><span>Dev news, tips and how-tos</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/developers/changelog/">
+                            <div class="d-flex">
+                                <img src="/Images/navigation-changelog.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Changelog</span>
+                                    <br><span>Stay up tto date</span>
+                                </span>
+                            </div>
+                        </a></li>
+                    </div>
+                </div>
+            </ul>
+            </li>
+<!-- Dropdown 5 -->
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="span0">Partners</span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                <div class="d-flex gap-3">
+                    <div style="margin: 10px;">
+                        <li><a class="dropdown-item" href="https://www.contentful.com/partners/">
+                            <div class="d-flex">
+                                <img src="/Images/people-network.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Overview</span>
+                                    <br><span>Your growing support system</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/partners/solutions/">
+                            <div class="d-flex">
+                                <img src="/Images/search.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Find a Partner</span>
+                                    <br><span>Get help implementing Contentful</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://www.contentful.com/partners/contact/">
+                            <div class="d-flex">
+                                <img src="/Images/multiple-circle.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Become a Partner</span>
+                                    <br><span>Join our rewarding partner program</span>
+                                </span>
+                            </div>
+                        </a></li>
+                        <li><a class="dropdown-item" href="https://contentful.allbound.com/">
+                            <div class="d-flex">
+                                <img src="/Images/mobile-phone.svg" alt="" width="20">
+                                <span class="ps-3 pt-3">
+                                    <span>Partner Portal</span>
+                                    <br><span>Full toolkit for partners</span>
+                                </span>
+                            </div>
+                        </a></li>
+                    </div>
+                </div>
+            </ul>
+            </li>
+            <!-- Dropdown 5 -->
+            <li>
+                <a href="https://www.contentful.com/pricing/" class="normal-link3">
+                    Pricing
+                </a>
+                </li>
+        </ul>
+        <!-- Second list with icons and button -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="#">
+                <img src="/Images/svgexport-5.svg" alt="Icon 1" width="20" height="20">
+            </a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="https://be.contentful.com/login/">
+                <img src="/Images/svgexport-6.svg" alt="Icon 2" width="20" height="20"> Log in
+            </a>
+            </li>
+            <li class="nav-item">
+            <a class="btn" href="https://www.contentful.com/get-started/">Get Started</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+    <section>
+            <div class="justify-self-center text-align-center" style="padding-top: 90px;">
+                <button class="button1"><a href="https://www.contentful.com/products/ai/" class="normal-link">Accelerate your team's creativity ✨ <img src="/Images/svgexport-9.svg" alt="" style="padding-left: 10px;"></a></button>
+                <h1 class="text1">Content that takes you from <br>anywhere to everywhere</h1>
+                <p class="text">Rapidly build the dynamic experiences your customers crave.</p>
+                <button class="button"><a href="https://www.contentful.com/get-started/" style="text-decoration: none; color: white;">Get started</a></button>
+            </div>
+    </section>
+
+    <div>
+        <h2 class="font">Unify your content, accelerate <br>revenue</h2>
+        <div class="grid">
+            <a href="https://www.contentful.com/products/platform/" class="normal-link1"><div class="div2">
+                <img src="/Images/Contentful Platform Icon.svg" alt="">
+                <p class="text2">Contentful Platform</p>
+                <p>Create and manage content from <br>anywhere to go everywhere.</p>
+                <button class="button0"><img src="/Images/svgexport-12.svg" alt=""></button>
+            </div></a>
+            <a href="https://www.contentful.com/products/studio/" class="normal-link1"><div class="div2">
+                <img src="/Images/Contentful Studio Icon.svg" alt="">
+                <p class="text2">Contentful Studio</p>
+                <p>Empower anyone to assemble on-brand <br>experiences at scale.</p>
+                <button class="button0"><img src="/Images/svgexport-12.svg" alt=""></button>
+            </div></a>
+            <a href="https://www.contentful.com/products/ecosystem/" class="normal-link1"><div class="div2">
+                <img src="/Images/ecosystem.svg" alt="">
+                <p class="text2">Contentful Ecosystem</p>
+                <p>Easily compose a best-in-class platform <br>and meet goals faster.</p>
+                <button class="button0"><img src="/Images/svgexport-12.svg" alt=""></button>
+            </div></a>
+        </div>
+    </div>
+
+    <div class="div3 d-lg-flex gap-5">
+        <img src="/Images/home_ai.webp" alt="" width="200" style="border-radius: 30px;">
+        <div style="padding-top: 20px;">
+            <p class="font1">Endless possibilities powered by AI</p>
+            <p style="font-weight: 400; font-size: 16px;">Enable teams (human + AI) to intelligently automate the content creation process to generate and publish trusted content and on-brand experiences.</p>
+        </div>
+        <div>
+            <button class="btn2">Discover AI</button>
+        </div>
+    </div>
+    <hr class="hr" style="margin: 150px;">
+
+
+    <h2 class="font3">Our customers embrace the <br>future of content</h2>
+    <div class="div4 d-lg-flex">
+        <div id="div0">
+            <img src="/Images/Kraft_Heinz-black.svg" alt="">
+            <h3 class="font2">Kraft Heinz secures the secret sauce for an iconic, modern brand with Contentful</h3>
+            <div class="d-flex gap-3 mt-5">
+                <div>
+                    <button class="button2" >Read case only</button>
+                    <p style="padding-top: 200px; font-size: 72px; font-weight: 600;">30%</p>
+                    <p style="font-size: 16px; font-weight: 600;">increased engagement.</p>
+                </div>
+                <div>
+                    <button class="button3">Browse all</button>
+                    <p style="padding-top: 200px; font-size: 72px; font-weight: 600;">78%</p>
+                    <p style="font-size: 16px; font-weight: 600;">increased conversion <br>rate.</p>
+                </div>
+            </div>
+        </div>
+        <img src="/Images/Flagship-Kraft-Case-Study-Module-1_1_2x.webp" alt="" width="600" style="border-radius: 30px;" id="contain">
+    </div>
+    <hr style="margin: 150px; margin-top: -90px;">
+
+
+    <header>
+        <div class="cardgrp d-lg-flex d-block gap-5 position-relative " style="margin-top: -100px; margin-bottom: 200px;">
+            <a href="https://www.contentful.com/case-studies/kfc-global/" class="text-decoration-none ">
+        <div class="card" style="background-color: rgb(95,121,140);">
+
+            <img src="/IMAGES/Case-Study-Card-KFC-3_2.webp" class="card-img-top rounded-top-4">
+            <img src="/IMAGES/White KFC Logo.svg" class="herovg">
+
+            <div class="card-body  text-white">
+                <p class="card-text fw-bold p-3 fs-5">KFC builds finger-lickin’ good <br>digital experiences with Contentful</p>
+            </div>
+        </div></a>
+        <a href="https://www.contentful.com/case-studies/audible/" class="text-decoration-none">
+        <div class="card" style="background-color: rgb(107,59,83);">
+            <img src="/IMAGES/audible_hero_16_9_2x.webp" class="card-img-top  rounded-top-4">
+
+            <img src="/IMAGES/Audible.svg" class="herovg">
+            <div class="card-body text-white">
+            <p class="card-text fw-bold p-3 fs-5">Audible sparks listener imagination <br> with Contentful</p>
+            </div>
+        </div></a>
+        <a href="https://www.contentful.com/case-studies/vodafone/" class="text-decoration-none">
+        <div class="card" style="background-color: rgb(57,94,74);">
+            <img src="/IMAGES/Vodafone_Hero_3_2.webp" class="card-img-top rounded-top-4">
+            <img src="/IMAGES/Vodafone.svg" class="herovg">
+            <div class="card-body text-white">
+            <p class="card-text fw-bold p-3 fs-5">Vodafone dials up content <br>operations with Contentful</p>
+        </div>
+        </div></a>
+        </div>
+    </header>
+
+    <hr style="margin: 150px;">
+
+
+    <div style="margin: 150px; margin-top: -40px;">
+        <div>
+            <h2 id="H2o">Fresh takes on composable <br>content for digital teams</h2>
+        </div>
+        <div class="div9 grid1" style="margin-top: 40px;">
+            <div>
+                <div class="card" id="CARD">
+                    <img src="/Images/Studio-Blog_3_2_2x__1_.webp" class="card-img-top" alt="..." style="border-radius: 30px;">
+                    <div class="card-body" style="padding-top: 50px;">
+                        <h5 class="font4 card-title">Introducing Contentful Studio</h5>
+                        <p class="font5 card-text">Bring your digital teams together and assemble intelligent experiences at scale with Contentful Studio.</p>
+                        <a href="https://www.contentful.com/blog/contentful-studio/" class="btn btn-primary button4">Read article</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card" id="CARD1">
+                    <img src="/Images/Flagship-Video-Promo-5-16_9_2x__2_.webp" class="card-img-top" alt="..." style="border-radius: 30px; height: 370px;">
+                    <div class="card-body" style="padding-top: 50px;">
+                        <h5 class="font4 card-title">Innovators driving the composable evolution</h5>
+                        <p class="font5 card-text">Behind every winning content experience is a champion. Discover their stories.</p>
+                        <a href="https://www.contentful.com/the-new-storytellers/" class="btn btn-primary button5">View series</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card" id="CARD">
+                    <img src="/Images/MGTCC_Module_544x363_V3.webp" class="card-img-top" alt="..." style="border-radius: 30px;">
+                    <div class="card-body" style="padding-top: 50px;">
+                        <h5 class="font4 card-title">Marketer’s Guide to Composable Content</h5>
+                        <p class="font5 card-text">Learn more about composable content, a new way of thinking about and working with digital content.</p>
+                        <a href="https://www.contentful.com/resources/the-marketers-guide-to-composable-content/" class="btn btn-primary button4">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card" id="CARD">
+                    <img src="/Images/NavPromo_-_AI_Desktop_2x.webp" class="card-img-top" alt="..." style="border-radius: 30px;">
+                    <div class="card-body" style="padding-top: 60px;">
+                        <h5 class="font4 card-title">AI Content Type Generator</h5>
+                        <p class="font5 card-text">Jumpstart your content modeling with the AI Content Type Generator.</p>
+                        <a href="https://www.contentful.com/developers/docs/tools/ai-content-type-generator/" class="btn btn-primary button5" style="margin-top: 42px;">Explore features</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="div5">
+        <div style="padding-top: 50px;">
+            <img src="/Images/svgexport-14.svg" alt="" width="50">
+            <h2 class="f1" style="font-size: 56px; font-weight: 600;">Unlock the power of your <br>digital content today</h2>
+        </div>
+        <div class="grid2">
+            <div class="div6">
+                <a href="https://www.contentful.com/contact/sales/" class="normal-link2">
+                    <p class="font6">Contact sales</p>
+                    <p class="font7">Drop us a line to find out how Contentful can help <br>you efficiently and quickly meet your organization’s <br>needs.</p>
+                    <button class="button6"><img src="/Images/svgexport-12.svg" alt=""></button>
+                </a>
+            </div>
+            <div class="div6">
+                <div>
+                    <a href="https://www.contentful.com/sign-up/" class="normal-link2">
+                        <p class="font6">Get started for free</p>
+                        <p class="font7">Why wait? Contentful provides unlimited access to platform features and capabilities — for free. Start building today!</p>
+                        <button class="button6"><img src="/Images/svgexport-12.svg" alt=""></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="div7">
+        <span>
+            <h6 class="font8">Product</h6>
+            <ul>
+                <a href="https://www.contentful.com/products/" class="normal-link3"><li>What is Contentful?</li></a>
+                <a href="https://www.contentful.com/use-cases/" class="normal-link3"><li>Use Cases</li></a>
+                <a href="https://www.contentful.com/headless-cms/" class="normal-link3"><li>What is headless CMS?</li></a>
+                <a href="https://www.contentful.com/composable-content/" class="normal-link3"><li>What is composable content?</li></a>
+                <a href="https://www.contentful.com/whats-new/" class="normal-link3"><li>What's New</li></a>
+                <a href="https://www.contentful.com/pricing/" class="normal-link3"><li>Pricing</li></a>
+            </ul>
+        </span>
+        <span>
+            <h6 class="font8">Docs & Help</h6>
+            <ul>
+                <a href="https://www.contentful.com/developers/docs/" class="normal-link3"><li>Documentation</li></a>
+                <a href="https://training.contentful.com/" class="normal-link3"><li>Training</li></a>
+                <a href="https://www.contentful.com/professional-services/" class="normal-link3"><li>Professional services</li></a>
+                <a href="https://www.contentfulstatus.com/" class="normal-link3"><li>System status</li></a>
+                <a href="https://www.contentful.com/faq/" class="normal-link3"><li>FAQs</li></a>
+                <a href="https://www.contentful.com/help/" class="normal-link3"><li>Help Center</li></a>
+                <a href="https://www.contentful.com/developers/showcase/" class="normal-link3"><li>Developer Showcase</li></a>
+            </ul>
+        </span>
+        <span>
+            <h6 class="font8">About us</h6>
+            <ul>
+                <a href="https://www.contentful.com/about-us/" class="normal-link3"><li>About us</li></a>
+                <a href="https://www.contentful.com/careers/" class="normal-link3"><li>Careers</li></a>
+                <a href="https://www.contentful.com/leadership/" class="normal-link3"><li>Leadership</li></a>
+                <a href="https://www.contentful.com/blog/" class="normal-link3"><li>Blog</li></a>
+                <a href="https://www.contentful.com/events/" class="normal-link3"><li>Events</li></a>
+                <a href="https://www.contentful.com/newsroom/" class="normal-link3"><li>Newsroom</li></a>
+            </ul>
+        </span>
+        <span>
+            <h6 class="font8">Get in touch</h6>
+            <ul>
+                <a href="https://www.contentful.com/contact/" class="normal-link3"><li>Contact</li></a>
+                <a href="https://www.contentful.com/support/" class="normal-link3"><li>Support</li></a>
+                <a href="https://www.contentful.com/partners/" class="normal-link3"><li>Partners</li></a>
+                <a href="https://www.contentful.com/researchpanel/" class="normal-link3"><li>Join research panel</li></a>
+            </ul>
+        </span>
+        <span>
+            <h6 class="font8">Connect</h6>
+            <ul>
+                <a href="https://github.com/contentful" class="normal-link3"><li>Github</li></a>
+                <a href="https://www.contentful.com/discord/" class="normal-link3"><li>Discord</li></a>
+                <a href="https://twitter.com/contentful" class="normal-link3"><li>Twitter</li></a>
+                <a href="https://www.youtube.com/c/Contentfulinc" class="normal-link3"><li>Youtube</li></a>
+                <a href="https://www.linkedin.com/company/contentful" class="normal-link3"><li>LinkedIn</li></a>
+            </ul>
+        </span>
+    </div>
+
+    <div class="Accordion d-lg-none d-md-none">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Product
+                </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul style="padding-left: 0px;">
+                            <a href="https://www.contentful.com/products/" class="normal-link3"><li>What is Contentful?</li></a>
+                            <a href="https://www.contentful.com/use-cases/" class="normal-link3"><li>Use Cases</li></a>
+                            <a href="https://www.contentful.com/headless-cms/" class="normal-link3"><li>What is headless CMS?</li></a>
+                            <a href="https://www.contentful.com/composable-content/" class="normal-link3"><li>What is composable content?</li></a>
+                            <a href="https://www.contentful.com/whats-new/" class="normal-link3"><li>What's New</li></a>
+                            <a href="https://www.contentful.com/pricing/" class="normal-link3"><li>Pricing</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Docs & Help
+                </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul style="padding-left: 0px;">
+                            <a href="https://www.contentful.com/developers/docs/" class="normal-link3"><li>Documentation</li></a>
+                            <a href="https://training.contentful.com/" class="normal-link3"><li>Training</li></a>
+                            <a href="https://www.contentful.com/professional-services/" class="normal-link3"><li>Professional services</li></a>
+                            <a href="https://www.contentfulstatus.com/" class="normal-link3"><li>System status</li></a>
+                            <a href="https://www.contentful.com/faq/" class="normal-link3"><li>FAQs</li></a>
+                            <a href="https://www.contentful.com/help/" class="normal-link3"><li>Help Center</li></a>
+                            <a href="https://www.contentful.com/developers/showcase/" class="normal-link3"><li>Developer Showcase</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    About us
+                </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul style="padding-left: 0px;">
+                            <a href="https://www.contentful.com/about-us/" class="normal-link3"><li>About us</li></a>
+                            <a href="https://www.contentful.com/careers/" class="normal-link3"><li>Careers</li></a>
+                            <a href="https://www.contentful.com/leadership/" class="normal-link3"><li>Leadership</li></a>
+                            <a href="https://www.contentful.com/blog/" class="normal-link3"><li>Blog</li></a>
+                            <a href="https://www.contentful.com/events/" class="normal-link3"><li>Events</li></a>
+                            <a href="https://www.contentful.com/newsroom/" class="normal-link3"><li>Newsroom</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    Get in touch
+                </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul style="padding-left: 0px;">
+                            <a href="https://www.contentful.com/contact/" class="normal-link3"><li>Contact</li></a>
+                            <a href="https://www.contentful.com/support/" class="normal-link3"><li>Support</li></a>
+                            <a href="https://www.contentful.com/partners/" class="normal-link3"><li>Partners</li></a>
+                            <a href="https://www.contentful.com/researchpanel/" class="normal-link3"><li>Join research panel</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    Connect
+                </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul style="padding-left: 0px;">
+                            <a href="https://github.com/contentful" class="normal-link3"><li>Github</li></a>
+                            <a href="https://www.contentful.com/discord/" class="normal-link3"><li>Discord</li></a>
+                            <a href="https://twitter.com/contentful" class="normal-link3"><li>Twitter</li></a>
+                            <a href="https://www.youtube.com/c/Contentfulinc" class="normal-link3"><li>Youtube</li></a>
+                            <a href="https://www.linkedin.com/company/contentful" class="normal-link3"><li>LinkedIn</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="justify-content-center text-align-center d-lg-flex" id="none">
+        <ul class="d-lg-flex d-block gap-3">
+            <a href="https://www.contentful.com/legal/" class="normal-link4"><li>Imprint/Legal</li></a>
+            <hr>
+            <a href="https://www.contentful.com/legal/privacy-at-contentful/privacy-notice/" class="normal-link4"><li>Privacy</li></a>
+            <hr>
+            <a href="https://www.contentful.com/legal/privacy-at-contentful/your-privacy-choices/" class="normal-link4"><li><img src="/Images/svgexport-16.svg" alt="">Your Privacy Choices</li></a>
+            <hr>
+            <a href="https://www.contentful.com/security/" class="normal-link4"><li>Security</li></a>
+            <hr>
+            <a href="https://be.contentful.com/login/" class="normal-link4"><li>Log in</li></a>
+            <hr>
+            <li class="normal-link4">Cookie Preferences</li>
+            <hr>
+            <a href="https://www.contentful.com/sitemap/" class="normal-link4"><li>Sitemap</li></a>
+        </ul>
+    </div>
+
+    <div class="justify-content-center text-align-center d-lg-flex">
+        <p>© 2024 Contentful. All rights reserved.</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
