@@ -497,7 +497,7 @@
             border: none;
             padding: 10px;
             border-radius: 20px;
-            margin-left: 50px;
+            margin-left: 100px;
             margin-top: 50px;
         }
         .text1{
@@ -516,7 +516,7 @@
             font-size: 16px;
             font-weight: 600;
             border-radius: 50px;
-            margin-left: 120px;
+            margin-left: 160px;
         }
         .font{
             padding-left: 30px;
@@ -613,14 +613,14 @@
         #CARD{
             width: 24rem;
             border: none;
-            margin: 20px;
+            margin: 50px;
         }
         #CARD1{
             width: 24rem;
             height: 22.5rem;
             margin-bottom: 150px;
             border: none;
-            margin: 20px;
+            margin: 50px;
         }
         #H2o{
             font-size: 32px;
@@ -628,7 +628,7 @@
             margin-left: -90%;
         }
         #navbarNav{
-            height: 90vh;
+            height: 150vh;
             background-color: white;
         }
         /* .navbar-nav{
