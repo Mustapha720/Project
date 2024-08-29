@@ -42,7 +42,7 @@
         background-color: rgb(140,46,234);
     }
 
-    .badge{
+    #badge1{
         background-color: rgb(140,46,234);
         border: 1px solid white;
         color: white;
@@ -62,8 +62,8 @@
         display: none;
     }
 
-    .img:hover {
-        display: inline;
+    .span1:hover {
+        display: inline-block;
     } */
 
     .nav-link:hover{
@@ -546,7 +546,7 @@
             margin: 0px;
             border-radius: 0px;
         }
-        .badge{
+        #badge1{
             display: none;
         }
         .headdd{
@@ -557,7 +557,7 @@
             border: none;
             padding: 10px;
             border-radius: 20px;
-            margin-left: 130px;
+            margin-left: 40px;
             margin-top: 50px;
         }
         .text1{
@@ -576,7 +576,7 @@
             font-size: 16px;
             font-weight: 600;
             border-radius: 50px;
-            margin-left: 210px;
+            margin-left: 130px;
         }
         .font{
             padding-left: 30px;
@@ -596,7 +596,9 @@
         }
         .div2{
             margin-top: 20px;
-            width: 450px;
+            width: 110%;
+            height: 58vh;
+            margin-left: -20px;
         }
         .button0{
             background-color: black;
@@ -604,8 +606,8 @@
             height: 50px;
             border: none;
             border-radius: 360rem;
-            margin-left: 300px;
-            margin-top: 40px;
+            margin-left: 220px;
+            /* margin-top: 20px; */
         }
     
         .button7{
@@ -614,7 +616,7 @@
             height: 50px;
             border: none;
             border-radius: 360rem;
-            margin-left: 300px;
+            margin-left: 220px;
             margin-top: 40px;
         }
     
@@ -624,8 +626,8 @@
             height: 50px;
             border: none;
             border-radius: 360rem;
-            margin-left: 300px;
-            margin-top: 40px;
+            margin-left: 220px;
+            margin-top: -90px;
         }
         .div3{
             border: none;
@@ -703,30 +705,33 @@
         }
         .div9{
             display: block;
-            margin-left: -70%;
+            margin-left: -160%;
         }
         #CARD{
-            width: 24rem;
+            /* width: 24rem; */
+            width: 140%;
             border: none;
-            margin: 80px;
+            margin: 20px;
         }
         #CARD2{
-            width: 24rem;
+            /* width: 24rem; */
+            width: 140%;
             border: none;
-            margin: 80px;
+            margin: 20px;
             margin-top: 170px;
         }
         #CARD1{
-            width: 24rem;
+            /* width: 24rem; */
+            width: 140%;
             height: 22.5rem;
             /* margin-bottom: 150px; */
             border: none;
-            margin: 80px;
+            margin: 20px;
         }
         #H2o{
             font-size: 32px;
             font-weight: 600;
-            margin-left: -40%;
+            margin-left: -130%;
         }
         #navbarNav{
             height: 150vh;
