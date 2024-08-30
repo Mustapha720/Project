@@ -354,6 +354,10 @@
         padding-left: 20px;
     }
 
+    #CARD2{
+        border: none;
+    }
+
     .grid1{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -511,6 +515,11 @@
     }
 
     #CARD{
+        width: 35rem;
+        border: none;
+    }
+
+    #CARD3{
         width: 35rem;
         border: none;
     }
@@ -679,7 +688,7 @@
             margin: 20px;
             justify-content: center;
             text-align: center;
-            height: 170vh;
+            height: 180vh;
         }
         .grid2{
             display: block;
@@ -713,12 +722,19 @@
             border: none;
             margin: 20px;
         }
+        #CARD3{
+            /* width: 24rem; */
+            width: 140%;
+            border: none;
+            margin: 20px;
+            margin-top: 100px;
+        }
         #CARD2{
             /* width: 24rem; */
             width: 140%;
             border: none;
             margin: 20px;
-            margin-top: 170px;
+            /* margin-top: 100px; */
         }
         #CARD1{
             /* width: 24rem; */
