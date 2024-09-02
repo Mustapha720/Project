@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
     /* Open dropdown on hover */
-    .navbar-nav .dropdown:hover .dropdown-menu {
+    .navbar-nav .dropdown:active .dropdown-menu {
         display: block;
         margin-top: 0;
     }
