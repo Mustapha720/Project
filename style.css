@@ -546,7 +546,7 @@
 
 
 
-    @media screen and (max-width:800px) {
+    @media screen and (max-width:1080px) {
         section{
             background: url(/Images/Home_Hero_-_Mobile_2x__1_.webp);
             background-size: cover;
