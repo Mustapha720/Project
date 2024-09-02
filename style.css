@@ -548,7 +548,7 @@
 
     @media screen and (max-width:576px) {
         #logo {
-            margin-left: 0%;
+            margin-left: -40px;
         }
         section{
             background: url(/Images/Home_Hero_-_Mobile_2x__1_.webp);
