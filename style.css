@@ -9,6 +9,12 @@
         margin-top: 0;
     }
 
+    /* Open dropdown on hover */
+/*     .navbar-nav .dropdown:active .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    } */
+
     /* Custom button style */
     .navbar-nav .btn-primary {
         background-color: black; /* Default color */
