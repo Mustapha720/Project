@@ -553,6 +553,10 @@
 
 
     @media screen and (max-width:576px) {
+        .navbar-nav .dropdown:active .dropdown-menu {
+            display: block;
+            margin-top: 0;
+        }
         #logo {
             margin-left: -40px;
         }
